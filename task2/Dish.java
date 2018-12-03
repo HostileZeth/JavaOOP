@@ -1,3 +1,5 @@
+package bin;
+
 class Dish {
 private String name;
 private String description;
@@ -31,6 +33,11 @@ return description;
 
 public void setDescription (String _description) {
 description = _description;
+}
+
+public static void main (String[] args)
+{
+System.out.println("Those dishes worxxx");
 }
 
 }
